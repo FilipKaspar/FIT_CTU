@@ -1,0 +1,180 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 7.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[      6226,        172]
+NotebookOptionsPosition[      4422,        128]
+NotebookOutlinePosition[      5417,        161]
+CellTagsIndexPosition[      5340,        156]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"57a67f39-5259-470b-a5c8-b43bdf008f0c"],
+
+Cell[CellGroupData[{
+
+Cell["P\[RHacek]\[IAcute]klady k \[RHacek]e\[SHacek]en\[IAcute] DCV 2", \
+"Section",ExpressionUUID->"a982c3fe-85a8-4ec3-937d-353faa0d494b"],
+
+Cell["P\[RHacek]6:", "Item",ExpressionUUID->"ce756669-d748-4cb3-bf80-07fc767a115d"],
+
+Cell[TextData[{
+ "Vy\[RHacek]e\[SHacek]te kvadratickou rovnici: ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     RowBox[{"a", "*", 
+      SuperscriptBox["x", "2"]}], "+", 
+     RowBox[{"5", "x"}], "+", "2"}], "=", "0"}], TraditionalForm]],
+  ExpressionUUID->"39b6b42e-437c-4ae4-bb23-c5a1774e2058"],
+ ". Jedno ze dvou \[RHacek]e\[SHacek]en\[IAcute] dosa\[DHacek]te do \
+v\[YAcute]razu ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"y", "=", 
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{"sin", "(", 
+         SuperscriptBox["x", "2"], ")"}], ".", " ", "Zobrazte"}], " ", "graf",
+        " ", "v\[YAcute]sledn\[EAcute]", " ", "funkce", " ", "y"}], "=", 
+      RowBox[{"f", "(", "a", ")"}]}]}], ",", " ", 
+    RowBox[{"v", " ", "intervalu", " ", "a\[Epsilon]", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"1", ",", "3"}], "}"}], ".", " ", "Pro"}], " ", 
+     "dosazen\[IAcute]", " ", "pou\[ZHacek]ijte", " ", "\"\</.\>"}]}], 
+   TraditionalForm]],ExpressionUUID->"0d8e29d1-f153-431e-8ee4-38af4866b612"],
+ "\"\n"
+}], "Text",ExpressionUUID->"99067710-5e12-42d2-8f48-46cacbec5397"],
+
+Cell["P\[RHacek]7:", "Item",ExpressionUUID->"0943957d-c7a0-41e9-a8ee-fb5d3dac564d"],
+
+Cell[TextData[{
+ "Ur\[CHacek]ete absolutn\[IAcute] hodnotu sou\[CHacek]tu dvou komplexn\
+\[IAcute]ch \[CHacek]\[IAcute]sel. ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["z", "1"], TraditionalForm]],ExpressionUUID->
+  "85158dea-d5d6-434d-9f1a-62dba4f772d5"],
+ "=3+4\[ImaginaryI], ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["z", "2"], TraditionalForm]],ExpressionUUID->
+  "57a09433-5418-4ed4-8ec2-2c473aa9e5b4"],
+ "=4+5\[ImaginaryI]."
+}], "Text",ExpressionUUID->"fb0d2805-a956-4073-9a79-06379673905b"],
+
+Cell["P\[RHacek]8:", "Item",ExpressionUUID->"2b10f9cb-41b7-4544-9c8e-1d2e0c72f696"],
+
+Cell["\<\
+\[CapitalUAcute]rok p.a.=0.1%, po\[CHacek]\[AAcute]te\[CHacek]n\[IAcute] \
+vklad na \[UAcute]\[CHacek]t\[EHacek] je 10 000 K\[CHacek]. \
+\[CapitalUAcute]roky se p\[RHacek]ipo\[CHacek]\[IAcute]t\[AAcute]vaj\[IAcute] \
+po dnech. V\[YAcute]\[SHacek]e p\[RHacek]ipsan\[EAcute]ho \[UAcute]roku a z\
+\[URing]statku na \[UAcute]\[CHacek]t\[EHacek] se o\[RHacek]\[IAcute]zne na 2 \
+desetinn\[AAcute] m\[IAcute]sta. Kolik v\[AAcute]m banka \
+p\[RHacek]ip\[IAcute]\[SHacek]e za 30 dn\[IAcute].  Kolik vyd\[EHacek]l\
+\[AAcute] banka na \[UAcute]roc\[IAcute]ch diky metod\[EHacek] o\[RHacek]ez\
+\[AAcute]v\[AAcute]n\[IAcute] na 2 desetinn\[AAcute] m\[IAcute]sta. Pou\
+\[ZHacek]ijte funkci Nest na funkci nextday.\
+\>", "Text",ExpressionUUID->"7bff73fd-b418-4ef5-baa6-6255935b8517"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"urok", " ", "=", " ", "0.1"}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{"dni", " ", "=", " ", "30"}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"du", "[", "castka_", "]"}], " ", ":=", " ", 
+   RowBox[{"castka", "*", 
+    RowBox[{
+     RowBox[{"urok", "/", "100"}], "/", "365"}]}]}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"duz", "[", "castka_", "]"}], " ", ":=", " ", 
+   RowBox[{"Floor", "[", 
+    RowBox[{
+     RowBox[{"du", "[", "castka", "]"}], ",", " ", "0.01"}], "]"}]}], 
+  ";"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"nextday", "[", "castka_", "]"}], " ", ":=", " ", 
+   RowBox[{"Floor", "[", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"castka", " ", "+", " ", 
+       RowBox[{"duz", "[", "castka", "]"}]}], ")"}], ",", " ", "0.01"}], 
+    "]"}]}], ";"}]}], "Input",ExpressionUUID->"1f9a0130-6a65-4bae-b41a-\
+876cb681f803"]
+}, Open  ]]
+}, Open  ]]
+},
+ScreenStyleEnvironment->"SlideShow",
+WindowSize->{1904, 1041},
+WindowMargins->{{Automatic, 192}, {Automatic, 71}},
+PrintingCopies->1,
+PrintingPageRange->{Automatic, Automatic},
+PrintingOptions->{"FacingPages"->False,
+"FirstPageHeader"->True,
+"PrintCellBrackets"->False,
+"PrintMultipleHorizontalPages"->False,
+"PrintRegistrationMarks"->False,
+"PrintingMargins"->{{72, 72}, {54, 54}}},
+PrivateNotebookOptions->{"VersionedStylesheet"->{"Default.nb"[8.] -> False}},
+ShowSelection->True,
+TooltipBoxOptions->{TooltipDelay->Automatic},
+FrontEndVersion->"12.0 for Microsoft Windows (64-bit) (April 8, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "SlideShowHeader"->{
+  Cell[567, 22, 122, 2, 1, "SlideShowNavigationBar",ExpressionUUID->"57a67f39-5259-470b-a5c8-b43bdf008f0c",
+   CellTags->"SlideShowHeader"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"SlideShowHeader", 5175, 150}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[567, 22, 122, 2, 1, "SlideShowNavigationBar",ExpressionUUID->"57a67f39-5259-470b-a5c8-b43bdf008f0c",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[714, 28, 139, 1, 129, "Section",ExpressionUUID->"a982c3fe-85a8-4ec3-937d-353faa0d494b"],
+Cell[856, 31, 83, 0, 48, "Item",ExpressionUUID->"ce756669-d748-4cb3-bf80-07fc767a115d"],
+Cell[942, 33, 1114, 30, 113, "Text",ExpressionUUID->"99067710-5e12-42d2-8f48-46cacbec5397"],
+Cell[2059, 65, 83, 0, 48, "Item",ExpressionUUID->"0943957d-c7a0-41e9-a8ee-fb5d3dac564d"],
+Cell[2145, 67, 501, 13, 48, "Text",ExpressionUUID->"fb0d2805-a956-4073-9a79-06379673905b"],
+Cell[2649, 82, 83, 0, 48, "Item",ExpressionUUID->"2b10f9cb-41b7-4544-9c8e-1d2e0c72f696"],
+Cell[2735, 84, 779, 11, 79, "Text",ExpressionUUID->"7bff73fd-b418-4ef5-baa6-6255935b8517"],
+Cell[3517, 97, 877, 27, 163, "Input",ExpressionUUID->"1f9a0130-6a65-4bae-b41a-876cb681f803"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

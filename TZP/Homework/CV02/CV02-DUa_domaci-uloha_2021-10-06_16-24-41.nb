@@ -1,0 +1,183 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      6280,        175]
+NotebookOptionsPosition[      5006,        149]
+NotebookOutlinePosition[      5455,        166]
+CellTagsIndexPosition[      5412,        163]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["P\[RHacek]\[IAcute]klad DCV 1", "Section",ExpressionUUID->"9388b236-c2a7-4478-87e8-a2bec5a89886"],
+
+Cell[TextData[{
+ ButtonBox["\[FilledLeftTriangle]\[ThickSpace]\[ThickSpace]\[ThickSpace]",
+  BaseStyle->"SlidePreviousNextLink",
+  Appearance->{Automatic, None},
+  ButtonFunction:>FrontEndExecute[{
+     FrontEndToken[
+      FrontEnd`ButtonNotebook[], "ScrollPagePrevious"]}],
+  ButtonNote->FEPrivate`FrontEndResource[
+   "FEStrings", "SlideshowPrevSlideText"]],
+ "\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]",
+ ButtonBox["\[ThickSpace]\[ThickSpace]\[ThickSpace]\[FilledRightTriangle]",
+  BaseStyle->"SlidePreviousNextLink",
+  Appearance->{Automatic, None},
+  ButtonFunction:>FrontEndExecute[{
+     FrontEndToken[
+      FrontEnd`ButtonNotebook[], "ScrollPageNext"]}],
+  ButtonNote->FEPrivate`FrontEndResource[
+   "FEStrings", "SlideshowNextSlideText"]]
+}], "PreviousNext",ExpressionUUID->"0f4acc4e-7c1b-488e-a87a-d7d2fc4eac37"],
+
+Cell[TextData[{
+ "\n1) Zadefinujte funkci f takovou, \[ZHacek]e ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"f", "(", 
+     RowBox[{"\[Omega]", ",", "\[Sigma]", ",", "t"}], ")"}], " ", "=", 
+    RowBox[{
+     RowBox[{"sin", "(", "\[Omega]t", ")"}], 
+     SuperscriptBox["e", 
+      RowBox[{"-", 
+       FractionBox[
+        SuperscriptBox["t", "2"], 
+        RowBox[{"2", 
+         SuperscriptBox["\[Sigma]", "2"]}]]}]]}]}], TraditionalForm]],
+  ExpressionUUID->"2f2d2131-3d39-47a9-8329-fff501200205"],
+ " a vytiskn\[EHacek]te graf t\[EAcute]to funkce v argumentu  ",
+ Cell[BoxData[
+  FormBox["x", TraditionalForm]],ExpressionUUID->
+  "739f7f50-b792-41ca-adb9-327a26747b25"],
+ " pro -5\[LessEqual]x\[LessEqual]5, \[Omega]=2\[Pi]x a \[Sigma]=1.5, \
+(libovoln\[EHacek]) popi\[SHacek]te osy a k\[RHacek]ivka nech\[THacek] je \
+\[CHacek]erven\[AAcute]."
+}], "Text",ExpressionUUID->"473cec82-04d1-4fdc-ae1d-e5c2034ee345"],
+
+Cell[BoxData["\[IndentingNewLine]"], "Input",ExpressionUUID->"994ce524-100f-4ddf-8c3a-a159f324a7c1"],
+
+Cell["2) Vy\[RHacek]e\[SHacek]te soustavu rovnic, v\[YAcute]sledek dosa\
+\[DHacek]te do v\[YAcute]razu vyr.", "Text",ExpressionUUID->"92ad1aa4-35d1-\
+4961-8a62-9d6b9997e0b7"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"uloha", "=", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{"-", 
+        SubscriptBox["x", "2"]}], "+", 
+       RowBox[{"3", " ", 
+        SubscriptBox["x", "1"]}]}], "\[Equal]", "3"}], ",", 
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{"-", "6"}], " ", 
+        SubscriptBox["x", "1"]}], "+", 
+       RowBox[{"17", " ", 
+        SubscriptBox["x", "2"]}], "+", 
+       RowBox[{"2", " ", 
+        SubscriptBox["x", "3"]}]}], "\[Equal]", "14"}], ",", 
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{"-", "21"}], " ", 
+        SubscriptBox["x", "1"]}], "+", 
+       RowBox[{"15", " ", 
+        SubscriptBox["x", "3"]}]}], "\[Equal]", "3"}]}], "}"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"vyr", "=", 
+   RowBox[{
+    SubscriptBox["x", "1"], "+", 
+    SubscriptBox["x", "2"], "-", 
+    SubscriptBox["x", "3"]}]}], ";"}]}], "Input",ExpressionUUID->"97624610-\
+604c-4d6d-b207-76144d63c2d2"],
+
+Cell[BoxData["\[IndentingNewLine]"], "Input",ExpressionUUID->"bc7be4fb-1a30-4cfa-b4bb-f96fb246642d"],
+
+Cell["\<\
+3) Vy\[RHacek]e\[SHacek]te soustavu difrovnic pro soustavu po\[CHacek]\
+\[AAcute]te\[CHacek]n\[IAcute]ch podm\[IAcute]nek, pro 0<t<9\[Pi]/2; vytiskn\
+\[EHacek]te graf x1[t] a x2[t] a popi\[SHacek]te osy.\
+\>", "Text",ExpressionUUID->"d340f127-b488-45f2-b2e5-1630b1860488"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"soustavaRovnic", "=", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{"x1", "'"}], "[", "t", "]"}], "\[Equal]", 
+      RowBox[{
+       RowBox[{"-", 
+        RowBox[{"x2", "[", "t", "]"}]}], "-", 
+       RowBox[{"0.5", "*", 
+        RowBox[{"x1", "[", "t", "]"}]}]}]}], ",", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"x2", "'"}], "[", "t", "]"}], "\[Equal]", 
+      RowBox[{"x1", "[", "t", "]"}]}]}], "}"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"soustavaPodminek", "=", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"x1", "[", "0", "]"}], "\[Equal]", "1"}], ",", 
+    RowBox[{
+     RowBox[{"x2", "[", "0", "]"}], "==", "0"}]}], "}"}]}]}], "Input",Expressi\
+onUUID->"0a825dea-6a5c-4ed0-835f-66e2b6a0d0d5"],
+
+Cell[BoxData[""], "Input",ExpressionUUID->"39019a87-a573-43b6-9ff3-8313e963113e"]
+}, Open  ]]
+},
+WindowSize->{958, 988},
+WindowMargins->{{-7, Automatic}, {Automatic, 0}},
+PrivateNotebookOptions->{"VersionedStylesheet"->{"Default.nb"[8.] -> False}},
+Magnification:>1.5 Inherited,
+FrontEndVersion->"12.0 for Microsoft Windows (64-bit) (April 8, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 103, 0, 99, "Section",ExpressionUUID->"9388b236-c2a7-4478-87e8-a2bec5a89886"],
+Cell[685, 24, 836, 18, 39, "PreviousNext",ExpressionUUID->"0f4acc4e-7c1b-488e-a87a-d7d2fc4eac37"],
+Cell[1524, 44, 925, 23, 170, "Text",ExpressionUUID->"473cec82-04d1-4fdc-ae1d-e5c2034ee345"],
+Cell[2452, 69, 100, 0, 73, "Input",ExpressionUUID->"994ce524-100f-4ddf-8c3a-a159f324a7c1"],
+Cell[2555, 71, 174, 2, 52, "Text",ExpressionUUID->"92ad1aa4-35d1-4961-8a62-9d6b9997e0b7"],
+Cell[2732, 75, 997, 34, 73, "Input",ExpressionUUID->"97624610-604c-4d6d-b207-76144d63c2d2"],
+Cell[3732, 111, 100, 0, 73, "Input",ExpressionUUID->"bc7be4fb-1a30-4cfa-b4bb-f96fb246642d"],
+Cell[3835, 113, 282, 4, 86, "Text",ExpressionUUID->"d340f127-b488-45f2-b2e5-1630b1860488"],
+Cell[4120, 119, 786, 25, 73, "Input",ExpressionUUID->"0a825dea-6a5c-4ed0-835f-66e2b6a0d0d5"],
+Cell[4909, 146, 81, 0, 43, "Input",ExpressionUUID->"39019a87-a573-43b6-9ff3-8313e963113e"]
+}, Open  ]]
+}
+]
+*)
+

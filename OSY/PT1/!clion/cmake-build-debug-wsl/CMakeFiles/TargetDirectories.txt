@@ -1,0 +1,3 @@
+/mnt/c/Users/filou/Desktop/School/CVUT_FIT/4th_Semester/OSY/PT1/!clion/cmake-build-debug-wsl/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/filou/Desktop/School/CVUT_FIT/4th_Semester/OSY/PT1/!clion/cmake-build-debug-wsl/CMakeFiles/edit_cache.dir
+/mnt/c/Users/filou/Desktop/School/CVUT_FIT/4th_Semester/OSY/PT1/!clion/cmake-build-debug-wsl/CMakeFiles/hw01.dir

@@ -1,0 +1,158 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      5835,        150]
+NotebookOptionsPosition[      5513,        136]
+NotebookOutlinePosition[      5881,        152]
+CellTagsIndexPosition[      5838,        149]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"ClearAll", "[", "\"\<Global`*\>\"", "]"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"soucastky", " ", "=", " ", 
+    RowBox[{"{", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"R1", " ", "\[Rule]", " ", 
+       RowBox[{"10", "*", 
+        RowBox[{"10", "^", "3"}]}]}], ",", "\[IndentingNewLine]", 
+      RowBox[{"R2", " ", "\[Rule]", " ", 
+       RowBox[{"10", " ", "*", " ", 
+        RowBox[{"10", "^", "3"}]}]}], ",", "\[IndentingNewLine]", 
+      RowBox[{"R3", " ", "\[Rule]", " ", 
+       RowBox[{"10", "*", " ", 
+        RowBox[{"10", "^", "3"}]}]}], ",", "\[IndentingNewLine]", 
+      RowBox[{"C2", " ", "\[Rule]", " ", 
+       RowBox[{"10", " ", "*", "\[NonBreakingSpace]", 
+        RowBox[{"10", "^", 
+         RowBox[{"-", "9"}]}]}]}], ",", "\[IndentingNewLine]", 
+      RowBox[{"L1", " ", "\[Rule]", " ", 
+       RowBox[{"10", " ", "*", " ", 
+        RowBox[{"10", "^", 
+         RowBox[{"-", "3"}]}]}]}], ",", "\[IndentingNewLine]", 
+      RowBox[{"uZ", " ", "\[Rule]", " ", 
+       RowBox[{"3", " ", "+", " ", 
+        RowBox[{"6", " ", "*", "\[ImaginaryJ]"}]}]}]}], "\[IndentingNewLine]",
+      "}"}]}], ";"}], "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"rovnice", " ", "=", " ", 
+    RowBox[{"{", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"iUZ", " ", "\[Equal]", " ", 
+       RowBox[{"iL1", " ", "+", " ", "iR1"}]}], ",", "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{"iL1", " ", "+", " ", "iR1"}], " ", "\[Equal]", " ", 
+       RowBox[{"iR2", " ", "+", " ", "iR3"}]}], ",", "\[IndentingNewLine]", 
+      RowBox[{"iR2", " ", "\[Equal]", " ", "iC2"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{"u1", " ", "-", " ", "u2"}], " ", "\[Equal]", " ", 
+       RowBox[{"R1", " ", "*", " ", "iR1"}]}], ",", "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{"u2", " ", "-", " ", "u3"}], " ", "\[Equal]", " ", 
+       RowBox[{"R2", " ", "*", " ", "iR2"}]}], ",", "\[IndentingNewLine]", 
+      RowBox[{"u2", " ", "\[Equal]", " ", 
+       RowBox[{"R3", " ", "*", "\[NonBreakingSpace]", "iR3"}]}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{"u1", " ", "-", " ", "u2"}], " ", "\[Equal]", " ", 
+       RowBox[{
+       "\[ImaginaryJ]", " ", "*", " ", "\[Omega]", " ", "*", " ", "L1", " ", 
+        "*", " ", "iL1"}]}], ",", "\[IndentingNewLine]", 
+      RowBox[{"u3", " ", "\[Equal]", " ", 
+       RowBox[{
+        FractionBox["1", 
+         RowBox[{
+         "\[ImaginaryJ]", " ", "*", " ", "\[Omega]", " ", "*", " ", "C2"}]], 
+        "*", " ", "iC2"}]}], ",", "\[IndentingNewLine]", 
+      RowBox[{"uZ", " ", "\[Equal]", " ", "u1"}]}], "\[IndentingNewLine]", 
+     "}"}]}], ";"}], "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"nezname", " ", "=", " ", 
+    RowBox[{"{", "\[IndentingNewLine]", 
+     RowBox[{
+     "iUZ", ",", " ", "iR1", ",", " ", "iR2", ",", " ", "iR3", ",", " ", 
+      "iL1", ",", " ", "iC2", ",", "\[IndentingNewLine]", "u1", ",", " ", 
+      "u2", ",", " ", "u3"}], "\[IndentingNewLine]", "}"}]}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"res", " ", "=", " ", 
+    RowBox[{"Solve", "[", 
+     RowBox[{
+      RowBox[{"rovnice", " ", "/.", " ", "soucastky"}], ",", " ", "nezname"}],
+      "]"}]}], ";"}], "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Plot", "[", 
+   RowBox[{
+    RowBox[{"Im", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"u3", "*", 
+        SuperscriptBox["\[ExponentialE]", 
+         RowBox[{"\[ImaginaryJ]", "*", "\[Omega]", "*", "t"}]]}], "/.", 
+       "res"}], "/.", 
+      RowBox[{"\[Omega]", "\[Rule]", 
+       RowBox[{"100", "*", "2", "*", "Pi"}]}]}], "]"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"t", ",", "0", ",", "0.3"}], "}"}]}], "]"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"prenos", "=", 
+   FractionBox[
+    RowBox[{"u3", "/.", "res"}], 
+    RowBox[{"uZ", "/.", "soucastky"}]]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"LogLogPlot", "[", 
+  RowBox[{
+   RowBox[{"Abs", "[", "prenos", "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\[Omega]", ",", "10", ",", 
+     SuperscriptBox["10", "7"]}], "}"}]}], "]"}]}], "Input",
+ CellChangeTimes->{{3.8470026348714933`*^9, 3.847002783924635*^9}, {
+  3.847002954738715*^9, 3.847003041194015*^9}, {3.8470035363302803`*^9, 
+  3.847003797401882*^9}, {3.8470038456426077`*^9, 3.847003848297241*^9}, {
+  3.8470038859219637`*^9, 3.8470039327534437`*^9}, {3.8470041749149847`*^9, 
+  3.8470042306393127`*^9}, {3.847004295480061*^9, 3.847004330058301*^9}, {
+  3.8470044219672337`*^9, 3.8470044279909554`*^9}, {3.847004491264357*^9, 
+  3.847004493987982*^9}, {3.847004573490017*^9, 3.84700465655199*^9}, {
+  3.8470047135620413`*^9, 3.847004762873054*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"b8755e93-66fa-4cf4-826e-00ca7f1a7b78"]
+},
+WindowSize->{808, 662},
+WindowMargins->{{14, Automatic}, {35, Automatic}},
+Magnification:>1.25 Inherited,
+FrontEndVersion->"12.0 for Mac OS X x86 (64-bit) (April 8, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 4951, 114, 971, "Input",ExpressionUUID->"b8755e93-66fa-4cf4-826e-00ca7f1a7b78"]
+}
+]
+*)
+

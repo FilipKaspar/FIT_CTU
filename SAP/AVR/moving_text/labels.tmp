@@ -1,0 +1,56 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.9</VERSION>
+ <DEVICE>ATmega169</DEVICE>
+ <WORKING_DIR>C:\Users\filou\Desktop\School\CVUT_FIT\2nd_Semester\SAP\AVR\moving_text</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\filou\Desktop\School\CVUT_FIT\2nd_Semester\SAP\AVR\moving_text\moving_text.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m169def.inc</FILE>
+  <FILE>C:\Users\filou\Desktop\School\CVUT_FIT\2nd_Semester\SAP\AVR\moving_text\print.inc</FILE>
+  <FILE>C:\Users\filou\Desktop\School\CVUT_FIT\2nd_Semester\SAP\AVR\moving_text\znaky.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\filou\Desktop\School\CVUT_FIT\2nd_Semester\SAP\AVR\moving_text\moving_text.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\filou\Desktop\School\CVUT_FIT\2nd_Semester\SAP\AVR\moving_text\moving_text.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\filou\Desktop\School\CVUT_FIT\2nd_Semester\SAP\AVR\moving_text\moving_text.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <init_disp><FILE>C:\Users\filou\Desktop\School\CVUT_FIT\2nd_Semester\SAP\AVR\moving_text\print.inc</FILE><LINE>3</LINE></init_disp>
+  <show_char><FILE>C:\Users\filou\Desktop\School\CVUT_FIT\2nd_Semester\SAP\AVR\moving_text\print.inc</FILE><LINE>18</LINE></show_char>
+  <mezera><FILE>C:\Users\filou\Desktop\School\CVUT_FIT\2nd_Semester\SAP\AVR\moving_text\print.inc</FILE><LINE>42</LINE></mezera>
+  <neznak><FILE>C:\Users\filou\Desktop\School\CVUT_FIT\2nd_Semester\SAP\AVR\moving_text\print.inc</FILE><LINE>39</LINE></neznak>
+  <nemezera><FILE>C:\Users\filou\Desktop\School\CVUT_FIT\2nd_Semester\SAP\AVR\moving_text\print.inc</FILE><LINE>44</LINE></nemezera>
+  <znaky><FILE>C:\Users\filou\Desktop\School\CVUT_FIT\2nd_Semester\SAP\AVR\moving_text\znaky.inc</FILE><LINE>8</LINE></znaky>
+  <zobzc><FILE>C:\Users\filou\Desktop\School\CVUT_FIT\2nd_Semester\SAP\AVR\moving_text\print.inc</FILE><LINE>64</LINE></zobzc>
+  <buf><FILE>C:\Users\filou\Desktop\School\CVUT_FIT\2nd_Semester\SAP\AVR\moving_text\moving_text.asm</FILE><LINE>14</LINE></buf>
+  <start><FILE>C:\Users\filou\Desktop\School\CVUT_FIT\2nd_Semester\SAP\AVR\moving_text\moving_text.asm</FILE><LINE>19</LINE></start>
+  <input><FILE>C:\Users\filou\Desktop\School\CVUT_FIT\2nd_Semester\SAP\AVR\moving_text\moving_text.asm</FILE><LINE>17</LINE></input>
+  <right><FILE>C:\Users\filou\Desktop\School\CVUT_FIT\2nd_Semester\SAP\AVR\moving_text\moving_text.asm</FILE><LINE>69</LINE></right>
+  <loadst><FILE>C:\Users\filou\Desktop\School\CVUT_FIT\2nd_Semester\SAP\AVR\moving_text\moving_text.asm</FILE><LINE>55</LINE></loadst>
+  <fillzeros><FILE>C:\Users\filou\Desktop\School\CVUT_FIT\2nd_Semester\SAP\AVR\moving_text\moving_text.asm</FILE><LINE>61</LINE></fillzeros>
+  <skipright><FILE>C:\Users\filou\Desktop\School\CVUT_FIT\2nd_Semester\SAP\AVR\moving_text\moving_text.asm</FILE><LINE>78</LINE></skipright>
+  <cycle><FILE>C:\Users\filou\Desktop\School\CVUT_FIT\2nd_Semester\SAP\AVR\moving_text\moving_text.asm</FILE><LINE>82</LINE></cycle>
+  <continueleft><FILE>C:\Users\filou\Desktop\School\CVUT_FIT\2nd_Semester\SAP\AVR\moving_text\moving_text.asm</FILE><LINE>112</LINE></continueleft>
+  <skipr26><FILE>C:\Users\filou\Desktop\School\CVUT_FIT\2nd_Semester\SAP\AVR\moving_text\moving_text.asm</FILE><LINE>105</LINE></skipr26>
+  <print><FILE>C:\Users\filou\Desktop\School\CVUT_FIT\2nd_Semester\SAP\AVR\moving_text\moving_text.asm</FILE><LINE>152</LINE></print>
+  <continue><FILE>C:\Users\filou\Desktop\School\CVUT_FIT\2nd_Semester\SAP\AVR\moving_text\moving_text.asm</FILE><LINE>115</LINE></continue>
+  <finish><FILE>C:\Users\filou\Desktop\School\CVUT_FIT\2nd_Semester\SAP\AVR\moving_text\moving_text.asm</FILE><LINE>130</LINE></finish>
+  <back><FILE>C:\Users\filou\Desktop\School\CVUT_FIT\2nd_Semester\SAP\AVR\moving_text\moving_text.asm</FILE><LINE>119</LINE></back>
+  <wait><FILE>C:\Users\filou\Desktop\School\CVUT_FIT\2nd_Semester\SAP\AVR\moving_text\moving_text.asm</FILE><LINE>137</LINE></wait>
+  <again><FILE>C:\Users\filou\Desktop\School\CVUT_FIT\2nd_Semester\SAP\AVR\moving_text\moving_text.asm</FILE><LINE>123</LINE></again>
+  <end><FILE>C:\Users\filou\Desktop\School\CVUT_FIT\2nd_Semester\SAP\AVR\moving_text\moving_text.asm</FILE><LINE>128</LINE></end>
+  <cek3><FILE>C:\Users\filou\Desktop\School\CVUT_FIT\2nd_Semester\SAP\AVR\moving_text\moving_text.asm</FILE><LINE>139</LINE></cek3>
+  <cek2><FILE>C:\Users\filou\Desktop\School\CVUT_FIT\2nd_Semester\SAP\AVR\moving_text\moving_text.asm</FILE><LINE>141</LINE></cek2>
+  <cek><FILE>C:\Users\filou\Desktop\School\CVUT_FIT\2nd_Semester\SAP\AVR\moving_text\moving_text.asm</FILE><LINE>143</LINE></cek>
+  <printright><FILE>C:\Users\filou\Desktop\School\CVUT_FIT\2nd_Semester\SAP\AVR\moving_text\moving_text.asm</FILE><LINE>172</LINE></printright>
+  <continueprinting><FILE>C:\Users\filou\Desktop\School\CVUT_FIT\2nd_Semester\SAP\AVR\moving_text\moving_text.asm</FILE><LINE>156</LINE></continueprinting>
+  <zero><FILE>C:\Users\filou\Desktop\School\CVUT_FIT\2nd_Semester\SAP\AVR\moving_text\moving_text.asm</FILE><LINE>167</LINE></zero>
+  <next><FILE>C:\Users\filou\Desktop\School\CVUT_FIT\2nd_Semester\SAP\AVR\moving_text\moving_text.asm</FILE><LINE>161</LINE></next>
+ </LABELS>
+</ASSEMBLER_INFO>

@@ -1,0 +1,148 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 7.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[      5266,        140]
+NotebookOptionsPosition[      3199,         93]
+NotebookOutlinePosition[      4192,        126]
+CellTagsIndexPosition[      4115,        121]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"57a67f39-5259-470b-a5c8-b43bdf008f0c"],
+
+Cell[CellGroupData[{
+
+Cell["P\[RHacek]\[IAcute]klady k \[RHacek]e\[SHacek]en\[IAcute] DCV 1", \
+"Section",ExpressionUUID->"a982c3fe-85a8-4ec3-937d-353faa0d494b"],
+
+Cell["P\[RHacek]1:", "Item",ExpressionUUID->"49103de3-c3e7-4bf8-8998-d0f1fdab182a"],
+
+Cell["\<\
+Zobrazte pr\[URing]b\[EHacek]h funkce sin(x) a cos(x) v jednom grafu v \
+intervalu x\[Epsilon]{0, 2\[Pi]}. Popi\[SHacek]te jednotliv\[EAcute] osy. Pr\
+\[URing]b\[EHacek]hy odli\[SHacek]te barevn\[EHacek], tu\[CHacek]n\[EHacek] a \
+\[CHacek]\[AAcute]rkovan\[EHacek]. Pou\[ZHacek]ijte n\[AAcute]pov\[EHacek]du \
+(AxesLabel a PlotStyle).\
+\>", "Text",ExpressionUUID->"b7535d3f-111c-4b09-a7ee-f30a892fc3e8"],
+
+Cell["P\[RHacek]2:", "Item",ExpressionUUID->"098a8c22-83f1-4bf2-a2d1-735bc06838e9"],
+
+Cell[TextData[{
+ "S pomoc\[IAcute] n\[AAcute]pov\[EHacek]dy vy\[RHacek]e\[SHacek]te",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{" ", 
+    SubscriptBox["lim", 
+     RowBox[{"n", "\[Rule]", "\[Infinity]"}]]}], TraditionalForm]],
+  ExpressionUUID->"be55769a-40dd-49ef-b568-bee3fbe43ab4"],
+ " ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox[
+    RowBox[{"(", 
+     RowBox[{"1", "+", 
+      FractionBox["1", "n"]}], ")"}], "n"], TraditionalForm]],ExpressionUUID->
+  "914ce510-a4d4-43d4-823f-8fc7b68e3b07"]
+}], "Text",ExpressionUUID->"789edcb9-0810-4c19-bc95-e7437f2222d4"],
+
+Cell["P\[RHacek]3:", "Item",ExpressionUUID->"3af370d6-0d61-41fc-b65b-0ae6923f4df3"],
+
+Cell["\<\
+Vy\[RHacek]e\[SHacek]te soustavu rovnic. Pou\[ZHacek]ijte funkci Solve.
+x+3y=1, 2x+4y = 5\
+\>", "Text",ExpressionUUID->"706ec919-fc92-458a-a66e-997ba9f96f35"],
+
+Cell["P\[RHacek]4:", "Item",ExpressionUUID->"890d32cf-0db9-461b-9ca5-1a480ea739a0"],
+
+Cell["\<\
+Zobrazte pr\[URing]b\[EHacek]h grafu z = f(x), kde z = tanh (y) a y = \
+3*sin(x) v intervalu x\[Epsilon]{-2\[Pi],2\[Pi]}. Popi\[SHacek]te osy a graf \
+obarv\[EHacek]te. Pro zobrazeni pou\[ZHacek]ijte (PlotRange->All). Vysledek \
+graficky porovnejte s funkci Sin(x).\
+\>", "Text",ExpressionUUID->"e19095fb-d755-4a42-b3f7-ceeab7ed349d"],
+
+Cell["P\[RHacek]5:", "Item",ExpressionUUID->"01657ab8-b85a-41e3-a43b-39c964d36107"],
+
+Cell[TextData[{
+ "Ur\[CHacek]ete \[CHacek]\[IAcute]slo x tak, aby determinant matice ",
+ Cell[BoxData[
+  RowBox[{"(", "\[NoBreak]", GridBox[{
+     {"3", "12", "5"},
+     {"7", "x", "1"},
+     {"22", "11", "10"}
+    }], "\[NoBreak]", ")"}]],ExpressionUUID->
+  "6d2c935f-9db1-4c9f-9467-c4df2b9e772c"],
+ " vy\[SHacek]el 0."
+}], "Text",ExpressionUUID->"3331b057-2a19-4f3f-9215-49454cdc7373"]
+}, Open  ]]
+}, Open  ]]
+},
+ScreenStyleEnvironment->"SlideShow",
+WindowSize->{2544, 1368},
+WindowMargins->{{-8, Automatic}, {Automatic, 0}},
+PrintingCopies->1,
+PrintingPageRange->{Automatic, Automatic},
+PrintingOptions->{"FacingPages"->False,
+"FirstPageHeader"->True,
+"PrintCellBrackets"->False,
+"PrintMultipleHorizontalPages"->False,
+"PrintRegistrationMarks"->False,
+"PrintingMargins"->{{72, 72}, {54, 54}}},
+PrivateNotebookOptions->{"VersionedStylesheet"->{"Default.nb"[8.] -> False}},
+ShowSelection->True,
+TooltipBoxOptions->{TooltipDelay->Automatic},
+FrontEndVersion->"12.0 for Microsoft Windows (64-bit) (April 8, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "SlideShowHeader"->{
+  Cell[567, 22, 122, 2, 1, "SlideShowNavigationBar",ExpressionUUID->"57a67f39-5259-470b-a5c8-b43bdf008f0c",
+   CellTags->"SlideShowHeader"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"SlideShowHeader", 3950, 115}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[567, 22, 122, 2, 1, "SlideShowNavigationBar",ExpressionUUID->"57a67f39-5259-470b-a5c8-b43bdf008f0c",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[714, 28, 139, 1, 149, "Section",ExpressionUUID->"a982c3fe-85a8-4ec3-937d-353faa0d494b"],
+Cell[856, 31, 83, 0, 48, "Item",ExpressionUUID->"49103de3-c3e7-4bf8-8998-d0f1fdab182a"],
+Cell[942, 33, 413, 6, 48, "Text",ExpressionUUID->"b7535d3f-111c-4b09-a7ee-f30a892fc3e8"],
+Cell[1358, 41, 83, 0, 48, "Item",ExpressionUUID->"098a8c22-83f1-4bf2-a2d1-735bc06838e9"],
+Cell[1444, 43, 561, 16, 58, "Text",ExpressionUUID->"789edcb9-0810-4c19-bc95-e7437f2222d4"],
+Cell[2008, 61, 83, 0, 48, "Item",ExpressionUUID->"3af370d6-0d61-41fc-b65b-0ae6923f4df3"],
+Cell[2094, 63, 168, 3, 79, "Text",ExpressionUUID->"706ec919-fc92-458a-a66e-997ba9f96f35"],
+Cell[2265, 68, 83, 0, 48, "Item",ExpressionUUID->"890d32cf-0db9-461b-9ca5-1a480ea739a0"],
+Cell[2351, 70, 344, 5, 48, "Text",ExpressionUUID->"e19095fb-d755-4a42-b3f7-ceeab7ed349d"],
+Cell[2698, 77, 83, 0, 48, "Item",ExpressionUUID->"01657ab8-b85a-41e3-a43b-39c964d36107"],
+Cell[2784, 79, 387, 10, 97, "Text",ExpressionUUID->"3331b057-2a19-4f3f-9215-49454cdc7373"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

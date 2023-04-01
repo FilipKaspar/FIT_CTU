@@ -1,0 +1,141 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      5719,        133]
+NotebookOptionsPosition[      4842,        112]
+NotebookOutlinePosition[      5262,        128]
+CellTagsIndexPosition[      5219,        125]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["P\[RHacek]\[IAcute]klad DCV 2", "Section",ExpressionUUID->"fccef218-fceb-486a-a470-3c4d2a6a1901"],
+
+Cell[TextData[{
+ "1) Napi\[SHacek]te seznam pravidel, kter\[EAcute] umo\[ZHacek]n\[IAcute] \
+pou\[ZHacek]\[IAcute]vat jednotky (\[CapitalOmega], H, F) a r\[URing]zn\
+\[EAcute] p\[RHacek]edpony(k, M, m, \[Mu], n) u sou\[CHacek]\[AAcute]stek: \
+rezistor, civka, kapacitor. Zadefinujte tyto sou\[CHacek]\[AAcute]stky a \
+rovnice. Na rovnice aplikujte V\[AAcute]mi vytvo\[RHacek]ena pravidla.\nR1=10 \
+k\[CapitalOmega]\nR2=20 M\[CapitalOmega]\nC1=10 mF\nC2=100 \[Mu]F\nL1=5 mH\n\
+L2=3 \[Mu]H\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     FractionBox["u12", "R1"], "+", 
+     FractionBox["u23", "R2"]}], "=", 
+    RowBox[{
+     RowBox[{"C1", "*", 
+      RowBox[{"u3", "'"}]}], "-", 
+     RowBox[{"C2", "*", "u4"}]}]}], TraditionalForm]],ExpressionUUID->
+  "012ea229-f24b-4acb-af55-7bac8f84ead9"],
+ "'+i1+i2\nu1=L1*i1'\nu2=L2*i2'\n"
+}], "Text",ExpressionUUID->"6014bb9f-a17e-4502-8b52-64394510f281"],
+
+Cell["\<\
+2) Spo\[CHacek]itejte, od kolika m\[EHacek]s\[IAcute]c\[URing] je \
+v\[YAcute]hodn\[EHacek]j\[SHacek]\[IAcute] pen\[IAcute]ze ukl\[AAcute]dat na \
+sp\[RHacek]\[IAcute]c\[IAcute] \[UAcute]\[CHacek]et oproti \
+duchodov\[EAcute]mu spo\[RHacek]en\[IAcute]. Ka\[ZHacek]d\[YAcute] \
+m\[EHacek]s\[IAcute]c vlo\[ZHacek]\[IAcute]te 1500,-. U duchodov\[EAcute]ho \
+spo\[RHacek]en\[IAcute] vam d\[AAcute] stat ka\[ZHacek]d\[YAcute] m\[EHacek]s\
+\[IAcute]c 500,-. Ro\[CHacek]n\[IAcute] \[UAcute]rokov\[AAcute] sazba na spo\
+\[RHacek]\[IAcute]c\[IAcute]m \[UAcute]\[CHacek]tu je po celou dobu spo\
+\[RHacek]en\[IAcute] 3%. Do 1 grafu zobrazte pr\[URing]b\[EHacek]h \
+v\[YAcute]hodnosti spo\[RHacek]\[IAcute]c\[IAcute]ho \[UAcute]\[CHacek]tu i d\
+\[URing]chodov\[EAcute]ho spo\[RHacek]en\[IAcute]. Pou\[ZHacek]ijte \
+v\[AAcute]mi definovanou funkci, vestav\[EHacek]nou funkci NestList, Table a \
+ListPlot. Jako parametr grafu pou\[ZHacek]ijte pravidlo: Filling \[Rule] Axis.
+\
+\>", "Text",ExpressionUUID->"1de86b9e-9fbf-4441-b62a-4ab739cc9cbf"],
+
+Cell["\<\
+3) Nadefinujte funkci 2 prom\[EHacek]nn\[YAcute]ch jejich v\[YAcute]stupem \
+bude list dvou hodnot, kde jedna p\[RHacek]edstavuje sou\[CHacek]et vstupn\
+\[IAcute]ch prom\[EHacek]nn\[YAcute]ch a druh\[AAcute] rozd\[IAcute]l vstupn\
+\[IAcute]ch prom\[EHacek]nn\[YAcute]ch. Na tuto funkci aplikujte funkci \
+NestList. V\[YAcute]sledek zobrazte v jednom grafu, kde jeden pr\[URing]b\
+\[EHacek]h bude zobrazovat pr\[URing]beh prvn\[IAcute] polo\[ZHacek]ky listu \
+a druh\[YAcute] druh\[YAcute] pr\[URing]b\[EHacek]h polo\[ZHacek]ky listu. V\
+\[YAcute]po\[CHacek]et prove\[DHacek]te pro 50 vno\[RHacek]en\[IAcute]. Jako \
+parametr grafu pou\[ZHacek]ijte pravidla: Filling \[Rule] Axis, PlotRange \
+\[Rule] All.\
+\>", "Text",ExpressionUUID->"4de95ca6-38e7-45eb-b9f2-c43b0506f6dc"],
+
+Cell[TextData[{
+ "4) Oba pr\[URing]b\[EHacek]hy z p\[RHacek]\[IAcute]kladu 3 prolo\[ZHacek]te \
+rovnic\[IAcute] ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"a", "+", 
+    RowBox[{"b", "*", "x"}], "+", 
+    RowBox[{"c", "*", 
+     SuperscriptBox["x", "2"]}]}], TraditionalForm]],ExpressionUUID->
+  "b0db35cf-2629-43a2-9967-957033d11623"],
+ ". Najd\[EHacek]te pr\[URing]se\[CHacek]\[IAcute]k t\[EHacek]chto dvou funkc\
+\[IAcute]. Pou\[ZHacek]ijte funkci FIT. P\[RHacek]\[IAcute]klad najdete v \
+helpu."
+}], "Text",ExpressionUUID->"92357202-13f3-4771-9c31-d1385baba6cb"],
+
+Cell[TextData[{
+ ButtonBox["\[FilledLeftTriangle]\[ThickSpace]\[ThickSpace]\[ThickSpace]",
+  BaseStyle->"SlidePreviousNextLink",
+  Appearance->{Automatic, None},
+  ButtonFunction:>FrontEndExecute[{
+     FrontEndToken[
+      FrontEnd`ButtonNotebook[], "ScrollPagePrevious"]}],
+  ButtonNote->FEPrivate`FrontEndResource[
+   "FEStrings", "SlideshowPrevSlideText"]],
+ "\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]",
+ ButtonBox["\[ThickSpace]\[ThickSpace]\[ThickSpace]\[FilledRightTriangle]",
+  BaseStyle->"SlidePreviousNextLink",
+  Appearance->{Automatic, None},
+  ButtonFunction:>FrontEndExecute[{
+     FrontEndToken[
+      FrontEnd`ButtonNotebook[], "ScrollPageNext"]}],
+  ButtonNote->FEPrivate`FrontEndResource[
+   "FEStrings", "SlideshowNextSlideText"]]
+}], "PreviousNext",ExpressionUUID->"058edef5-5993-4f84-8def-0f5b0bb9e4f8"]
+}, Open  ]]
+},
+WindowSize->{707, 816},
+WindowMargins->{{74, Automatic}, {34, Automatic}},
+PrivateNotebookOptions->{"VersionedStylesheet"->{"Default.nb"[8.] -> False}},
+FrontEndVersion->"12.0 for Microsoft Windows (64-bit) (April 8, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 103, 0, 67, "Section",ExpressionUUID->"fccef218-fceb-486a-a470-3c4d2a6a1901"],
+Cell[685, 24, 907, 20, 303, "Text",ExpressionUUID->"6014bb9f-a17e-4502-8b52-64394510f281"],
+Cell[1595, 46, 1040, 15, 166, "Text",ExpressionUUID->"1de86b9e-9fbf-4441-b62a-4ab739cc9cbf"],
+Cell[2638, 63, 783, 11, 122, "Text",ExpressionUUID->"4de95ca6-38e7-45eb-b9f2-c43b0506f6dc"],
+Cell[3424, 76, 563, 13, 56, "Text",ExpressionUUID->"92357202-13f3-4771-9c31-d1385baba6cb"],
+Cell[3990, 91, 836, 18, 27, "PreviousNext",ExpressionUUID->"058edef5-5993-4f84-8def-0f5b0bb9e4f8"]
+}, Open  ]]
+}
+]
+*)
+

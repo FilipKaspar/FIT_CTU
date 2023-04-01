@@ -1,0 +1,101 @@
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.30.30705/bin/Hostx86/x86/cl.exe 
+Build flags: ;-Wall;-Wextra;-pedantic;-g
+Id flags:  
+
+The output was:
+2
+Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30705 for x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+cl : Command line error D8021 : invalid numeric argument '/Wextra'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.30.30705/bin/Hostx86/x86/cl.exe 
+Build flags: ;-Wall;-Wextra;-pedantic;-g
+Id flags: -c 
+
+The output was:
+2
+Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30705 for x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+cl : Command line error D8021 : invalid numeric argument '/Wextra'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.30.30705/bin/Hostx86/x86/cl.exe 
+Build flags: ;-Wall;-Wextra;-pedantic;-g
+Id flags: --c++ 
+
+The output was:
+2
+Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30705 for x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+cl : Command line error D8021 : invalid numeric argument '/Wextra'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.30.30705/bin/Hostx86/x86/cl.exe 
+Build flags: ;-Wall;-Wextra;-pedantic;-g
+Id flags: --ec++ 
+
+The output was:
+2
+Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30705 for x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+cl : Command line error D8021 : invalid numeric argument '/Wextra'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.30.30705/bin/Hostx86/x86/cl.exe 
+Build flags: ;-Wall;-Wextra;-pedantic;-g
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+2
+Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30705 for x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+cl : Command line error D8021 : invalid numeric argument '/Wextra'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.30.30705/bin/Hostx86/x86/cl.exe 
+Build flags: ;-Wall;-Wextra;-pedantic;-g
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+2
+Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30705 for x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+cl : Command line error D8021 : invalid numeric argument '/Wextra'
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/filou/Desktop/School/CVUT_FIT/4th_Semester/OSY/PT1/!clion/cmake-build-debug-visual-studio/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.3.2/bin/ninja/win/ninja.exe cmTC_1388d && [1/2] Building CXX object CMakeFiles\cmTC_1388d.dir\CMakeCXXCompilerABI.cpp.obj
+FAILED: CMakeFiles/cmTC_1388d.dir/CMakeCXXCompilerABI.cpp.obj 
+C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1430~1.307\bin\Hostx86\x86\cl.exe  /nologo /TP   -Wall -Wextra -pedantic -g  /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /showIncludes /FoCMakeFiles\cmTC_1388d.dir\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\cmTC_1388d.dir\ /FS -c "C:\Program Files\JetBrains\CLion 2021.3.2\bin\cmake\win\share\cmake-3.21\Modules\CMakeCXXCompilerABI.cpp"
+cl : Command line error D8021 : invalid numeric argument '/Wextra'
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: C:/Users/filou/Desktop/School/CVUT_FIT/4th_Semester/OSY/PT1/!clion/cmake-build-debug-visual-studio/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.3.2/bin/ninja/win/ninja.exe cmTC_01537 && [1/2] Building CXX object CMakeFiles\cmTC_01537.dir\testCXXCompiler.cxx.obj
+FAILED: CMakeFiles/cmTC_01537.dir/testCXXCompiler.cxx.obj 
+C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1430~1.307\bin\Hostx86\x86\cl.exe  /nologo /TP   -Wall -Wextra -pedantic -g  /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /showIncludes /FoCMakeFiles\cmTC_01537.dir\testCXXCompiler.cxx.obj /FdCMakeFiles\cmTC_01537.dir\ /FS -c C:\Users\filou\Desktop\School\CVUT_FIT\4th_Semester\OSY\PT1\!clion\cmake-build-debug-visual-studio\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+cl : Command line error D8021 : invalid numeric argument '/Wextra'
+ninja: build stopped: subcommand failed.
+
+
+

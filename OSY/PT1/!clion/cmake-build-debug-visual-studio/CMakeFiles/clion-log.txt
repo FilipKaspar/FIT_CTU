@@ -1,0 +1,41 @@
+"C:\Program Files\JetBrains\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2021.3.2/bin/ninja/win/ninja.exe" -G Ninja C:\Users\filou\Desktop\School\CVUT_FIT\4th_Semester\OSY\PT1\!clion
+-- The C compiler identification is MSVC 19.30.30705.0
+-- The CXX compiler identification is MSVC 19.30.30705.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.30.30705/bin/Hostx86/x86/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - failed
+-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.30.30705/bin/Hostx86/x86/cl.exe
+-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.30.30705/bin/Hostx86/x86/cl.exe - broken
+CMake Error at C:/Program Files/JetBrains/CLion 2021.3.2/bin/cmake/win/share/cmake-3.21/Modules/CMakeTestCXXCompiler.cmake:62 (message):
+  The C++ compiler
+
+    "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.30.30705/bin/Hostx86/x86/cl.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: C:/Users/filou/Desktop/School/CVUT_FIT/4th_Semester/OSY/PT1/!clion/cmake-build-debug-visual-studio/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.3.2/bin/ninja/win/ninja.exe cmTC_01537 && [1/2] Building CXX object CMakeFiles\cmTC_01537.dir\testCXXCompiler.cxx.obj
+    FAILED: CMakeFiles/cmTC_01537.dir/testCXXCompiler.cxx.obj 
+    C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1430~1.307\bin\Hostx86\x86\cl.exe  /nologo /TP   -Wall -Wextra -pedantic -g  /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /showIncludes /FoCMakeFiles\cmTC_01537.dir\testCXXCompiler.cxx.obj /FdCMakeFiles\cmTC_01537.dir\ /FS -c C:\Users\filou\Desktop\School\CVUT_FIT\4th_Semester\OSY\PT1\!clion\cmake-build-debug-visual-studio\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+    cl : Command line error D8021 : invalid numeric argument '/Wextra'
+    ninja: build stopped: subcommand failed.
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:10 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/filou/Desktop/School/CVUT_FIT/4th_Semester/OSY/PT1/!clion/cmake-build-debug-visual-studio/CMakeFiles/CMakeOutput.log".
+See also "C:/Users/filou/Desktop/School/CVUT_FIT/4th_Semester/OSY/PT1/!clion/cmake-build-debug-visual-studio/CMakeFiles/CMakeError.log".
