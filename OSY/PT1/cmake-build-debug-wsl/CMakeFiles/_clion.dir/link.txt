@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/_clion.dir/main.cpp.o CMakeFiles/_clion.dir/sample_tester.cpp.o  -o _clion 

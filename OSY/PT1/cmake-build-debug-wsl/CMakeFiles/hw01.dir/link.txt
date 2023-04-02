@@ -1,1 +1,0 @@
-/usr/bin/c++   -Wall -Wextra -pedantic -g -g   CMakeFiles/hw01.dir/solution.cpp.o CMakeFiles/hw01.dir/sample_tester.cpp.o  -o hw01   -L/mnt/c/Users/filou/Desktop/School/CVUT_FIT/4th_Semester/OSY/PT1/!clion/x86_64-linux-gnu  -Wl,-rpath,/mnt/c/Users/filou/Desktop/School/CVUT_FIT/4th_Semester/OSY/PT1/!clion/x86_64-linux-gnu -lpthread -lprogtest_solver 

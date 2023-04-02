@@ -1,7 +1,0 @@
-# ninja log v5
-3	900	7017865100777847	CMakeFiles/_clion.dir/main.cpp.obj	5add9003f6733d50
-1	127	7020699769686202	build.ninja	9f9e4825001aa2c0
-3	629	7017865006250876	CMakeFiles/_clion.dir/sample_tester.cpp.obj	79deb40186da0240
-5	1556	7020647837875922	CMakeFiles/hw01.dir/solution.cpp.obj	aa1b0f0055a02170
-901	1024	7017865101977844	_clion.exe	d8b7d58f5f38f039
-0	1347	7020647835769226	CMakeFiles/hw01.dir/sample_tester.cpp.obj	57022b1ab8331770
